@@ -5,6 +5,7 @@ Corewar is a very peculiar game. It’s about bringing “players” together ar
 “virtual machine”, which will load some “champions” who will fight against one another
 with the support of “processes”, with the objective being for these champions
 to stay “alive”.
+
 • The processes are executed sequentially within the same virtual machine and memory
 space. They can therefore, among other things, write and rewrite on top of
 each others so to corrupt one another, force the others to execute instructions that
